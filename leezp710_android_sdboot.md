@@ -26,4 +26,5 @@ windows 系统下，打开烧录软件，如下图确认好，点击  开始创�
 插上 sd 卡，接上显示器，上电开机，如下图:     
 ![leez_p710.jpg](https://github.com/robe-zhang/release/blob/master/android_desktop.jpg)    
 开机时间有点长，需要等一下  
-
+(串口输出信息，会显示有一次重启，是正常的，烧机后第一次开机系统重启，之后就不会了。)
+(android 系统不响应串口任何输入，不可以通过串口使用。)
