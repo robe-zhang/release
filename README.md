@@ -14,13 +14,15 @@
 - 普通用户名 leez，密码是 leez
 - 管理员用户 root，密码是 root
 
+### 下载链接： [百度网盘](https://pan.baidu.com/s/1owG0KD4MkS8R6a50Kmtilw) 提取码: xxd8
 ---
 
 ### 2. 完整 SD 启动盘，完整系统，带有图形桌面
 #### 镜像文件: leezp710_debian10_desktop-xfce4_20190724_update.img
 
 - 此镜像文件，在 1 的基础上增加了图形桌面，xfce4，其他都一样
-
+  
+### 下载链接： [百度网盘](https://pan.baidu.com/s/1owG0KD4MkS8R6a50Kmtilw) 提取码: xxd8
 ---
 
 ### 3. 根分区镜像文件，仅 rootfs
@@ -33,6 +35,8 @@
 - 软件源配置好了，是国内中科大源
 - 用户名 leez ，密码 leez
 - 管理员 root，密码 root
+
+### 下载链接： [百度网盘](https://pan.baidu.com/s/1owG0KD4MkS8R6a50Kmtilw) 提取码: xxd8
 
 ---
 
