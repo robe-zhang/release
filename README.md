@@ -7,7 +7,7 @@
 
 - 此压缩包解压后得到镜像文件，镜像文件包含整个启动盘所有文件和系统  
 - 此镜像文件直接烧录到 SD 卡开机启动正常使用，烧录方法：  
-> [linux系统]：sudo dd if=<filename>.img of=/dev/sda bs=10M (假如 sd 卡设备文件是 /dev/sda)  
+> [linux系统]：sudo dd if=image-name.img of=/dev/sda bs=10M (假如 sd 卡设备文件是 /dev/sda)  
 > [window系统]： 直接使用 win32diskimager 烧录到 SD 卡，和烧录树莓派镜像方法一样  
 - 烧录后开机手工扩展 SD 卡分区大小。  
 - 系统是 ubuntu18.04 纯净最小系统，没有图形桌面，只能使用黑屏幕的控制台，软件源已配置好国内中科大源，开机即用  
@@ -22,7 +22,7 @@
 
 - 此压缩包解压后得到镜像文件，镜像文件包含整个启动盘所有文件和系统  
 - 此镜像文件直接烧录到 SD 卡开机启动正常使用，烧录方法：  
-> [linux系统]：sudo dd if=<filename>.img of=/dev/sda bs=10M (假如 sd 卡设备文件是 /dev/sda)  
+> [linux系统]：sudo dd if=image-name.img of=/dev/sda bs=10M (假如 sd 卡设备文件是 /dev/sda)  
 > [window系统]： 直接使用 win32diskimager 烧录到 SD 卡，和烧录树莓派镜像方法一样  
 - 烧录后开机手工扩展 SD 卡分区大小。  
 - 系统是 debian10 纯净最小系统，没有图形桌面，只能使用黑屏幕的控制台，软件源已配置好国内中科大源，开机即用  
