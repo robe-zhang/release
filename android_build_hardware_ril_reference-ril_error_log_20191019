@@ -1,0 +1,223 @@
+robe@dell:/datadisk/project_khadas_edge/Android9-leez$ source build/envsetup.sh
+including device/rockchip/rk3399/vendorsetup.sh
+including sdk/bash_completion/adb.bash
+robe@dell:/datadisk/project_khadas_edge/Android9-leez$ lunch
+
+You're building on Linux
+
+Lunch menu... pick a combo:
+     1. aosp_arm-eng
+     2. aosp_arm64-eng
+     3. aosp_mips-eng
+     4. aosp_mips64-eng
+     5. aosp_x86-eng
+     6. aosp_x86_64-eng
+     7. rk3399-userdebug
+     8. rk3399-user
+     9. rk3399_mid-userdebug
+     10. rk3399_mid-user
+     11. rk3399pro-userdebug
+     12. rk3399pro-user
+     13. chestnut-userdebug
+     14. chestnut-user
+     15. chestnut-eng
+
+Which would you like? [aosp_arm-eng] 13
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=9
+TARGET_PRODUCT=chestnut
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=cortex-a53
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv7-a-neon
+TARGET_2ND_CPU_VARIANT=cortex-a15
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-5.0.0-31-generic-x86_64-Ubuntu-18.04.3-LTS
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=PQ2A.20190516.V002
+OUT_DIR=out
+============================================
+robe@dell:/datadisk/project_khadas_edge/Android9-leez$ cd hardware/ril/reference-ril/
+robe@dell:/datadisk/project_khadas_edge/Android9-leez/hardware/ril/reference-ril$ mm
+Couldn't locate a makefile from the current directory.
+robe@dell:/datadisk/project_khadas_edge/Android9-leez/hardware/ril/reference-ril$ mmm
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=9
+TARGET_PRODUCT=chestnut
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=cortex-a53
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv7-a-neon
+TARGET_2ND_CPU_VARIANT=cortex-a15
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-5.0.0-31-generic-x86_64-Ubuntu-18.04.3-LTS
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=PQ2A.20190516.V002
+OUT_DIR=out
+============================================
+[1/1] out/soong/.minibootstrap/minibp out/soong/.bootstrap/build.ninja
+[55/56] glob prebuilts/ndk/stl.bp
+[79/79] out/soong/.bootstrap/bin/soong_build out/soong/build.ninja
+librga want to conditional Compile
+libstagefright want to conditional Compile
+out/build-chestnut--cleanspec.ninja is missing, regenerating...
+out/build-chestnut-.ninja is missing, regenerating...
+[4/1046] including bootable/recovery/Android.mk ...
+bootable/recovery/Android.mk:104: warning: *** Redirect log to UART
+[25/1046] including development/build/Android.mk ...
+development/build/build_android_stubs.mk:43: warning: android_stubs_current
+development/build/build_android_stubs.mk:43: warning: metalava_android_stubs_current metalava_android_stubs_current
+development/build/build_android_stubs.mk:43: warning: android_system_stubs_current
+development/build/build_android_stubs.mk:43: warning: android_test_stubs_current
+development/build/build_android_stubs.mk:43: warning: metalava_android_system_stubs_current metalava_android_system_stubs_current
+development/build/build_android_stubs.mk:43: warning: metalava_android_test_stubs_current metalava_android_test_stubs_current
+[378/1046] including hardware/rockchip/hwcomposer/Android.mk ...
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[379/1046] including hardware/rockchip/libgralloc/Android.mk ...
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[399/1046] including hardware/rockchip/omx_il/Android.mk ...
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+cp: cannot create regular file '.git/hooks/pre-commit': No such file or directory
+tools/hooks .git/hooks
+[579/1046] including system/sepolicy/Android.mk ...
+system/sepolicy/Android.mk:79: warning: BOARD_SEPOLICY_VERS not specified, assuming current platform version
+[1046/1046] including vendor/rockchip/common/vpu/Android.mk ...
+build/make/core/aapt2.mk:33: warning: overriding commands for target `out/target/common/obj/APPS/Bluetooth_intermediates/flat-res/device/rockchip/common/overlay/packages/apps/Bluetooth/res/values_config.arsc.flat'
+build/make/core/aapt2.mk:33: warning: ignoring old commands for target `out/target/common/obj/APPS/Bluetooth_intermediates/flat-res/device/rockchip/common/overlay/packages/apps/Bluetooth/res/values_config.arsc.flat'
+build/make/core/Makefile:28: warning: overriding commands for target `out/target/product/chestnut/vendor/lib/libjpeghwenc.so'
+build/make/core/base_rules.mk:412: warning: ignoring old commands for target `out/target/product/chestnut/vendor/lib/libjpeghwenc.so'
+build/make/core/Makefile:28: warning: overriding commands for target `out/target/product/chestnut/vendor/lib/libjpeghwdec.so'
+build/make/core/base_rules.mk:412: warning: ignoring old commands for target `out/target/product/chestnut/vendor/lib/libjpeghwdec.so'
+build/make/core/Makefile:28: warning: overriding commands for target `out/target/product/chestnut/vendor/lib64/libjpeghwenc.so'
+build/make/core/base_rules.mk:412: warning: ignoring old commands for target `out/target/product/chestnut/vendor/lib64/libjpeghwenc.so'
+[ 99% 1402/1403] glob tools/tradefederation/core/python-lib/tradefed_py/*.py
+ninja: error: 'kernel/arch/arm64/boot/Image', needed by 'out/target/product/chestnut/kernel', missing and no known rule to make it
+21:02:36 ninja failed with: exit status 1
+
+#### failed to build some targets (01:51 (mm:ss)) ####
+
+robe@dell:/datadisk/project_khadas_edge/Android9-leez/hardware/ril/reference-ril$ mma
+dirname: missing operand
+Try 'dirname --help' for more information.
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=9
+TARGET_PRODUCT=chestnut
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=cortex-a53
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv7-a-neon
+TARGET_2ND_CPU_VARIANT=cortex-a15
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-5.0.0-31-generic-x86_64-Ubuntu-18.04.3-LTS
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=PQ2A.20190516.V002
+OUT_DIR=out
+============================================
+ninja: no work to do.
+ninja: no work to do.
+out/build-chestnut-cleanspec.ninja is missing, regenerating...
+out/build-chestnut.ninja is missing, regenerating...
+[4/1046] including bootable/recovery/Android.mk ...
+bootable/recovery/Android.mk:104: warning: *** Redirect log to UART
+[25/1046] including development/build/Android.mk ...
+development/build/build_android_stubs.mk:43: warning: android_stubs_current
+development/build/build_android_stubs.mk:43: warning: metalava_android_stubs_current metalava_android_stubs_current
+development/build/build_android_stubs.mk:43: warning: android_system_stubs_current
+development/build/build_android_stubs.mk:43: warning: android_test_stubs_current
+development/build/build_android_stubs.mk:43: warning: metalava_android_system_stubs_current metalava_android_system_stubs_current
+development/build/build_android_stubs.mk:43: warning: metalava_android_test_stubs_current metalava_android_test_stubs_current
+[378/1046] including hardware/rockchip/hwcomposer/Android.mk ...
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[379/1046] including hardware/rockchip/libgralloc/Android.mk ...
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[399/1046] including hardware/rockchip/omx_il/Android.mk ...
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+cp: cannot create regular file '.git/hooks/pre-commit': No such file or directory
+tools/hooks .git/hooks
+[579/1046] including system/sepolicy/Android.mk ...
+system/sepolicy/Android.mk:79: warning: BOARD_SEPOLICY_VERS not specified, assuming current platform version
+[1046/1046] including vendor/rockchip/common/vpu/Android.mk ...
+build/make/core/aapt2.mk:33: warning: overriding commands for target `out/target/common/obj/APPS/Bluetooth_intermediates/flat-res/device/rockchip/common/overlay/packages/apps/Bluetooth/res/values_config.arsc.flat'
+build/make/core/aapt2.mk:33: warning: ignoring old commands for target `out/target/common/obj/APPS/Bluetooth_intermediates/flat-res/device/rockchip/common/overlay/packages/apps/Bluetooth/res/values_config.arsc.flat'
+build/make/core/Makefile:28: warning: overriding commands for target `out/target/product/chestnut/vendor/lib/libjpeghwenc.so'
+build/make/core/base_rules.mk:412: warning: ignoring old commands for target `out/target/product/chestnut/vendor/lib/libjpeghwenc.so'
+build/make/core/Makefile:28: warning: overriding commands for target `out/target/product/chestnut/vendor/lib/libjpeghwdec.so'
+build/make/core/base_rules.mk:412: warning: ignoring old commands for target `out/target/product/chestnut/vendor/lib/libjpeghwdec.so'
+build/make/core/Makefile:28: warning: overriding commands for target `out/target/product/chestnut/vendor/lib64/libjpeghwenc.so'
+build/make/core/base_rules.mk:412: warning: ignoring old commands for target `out/target/product/chestnut/vendor/lib64/libjpeghwenc.so'
+ninja: error: unknown target 'MODULES-IN-', did you mean 'MODULES-IN-sdk'?
+21:06:10 ninja failed with: exit status 1
+
+#### failed to build some targets (01:25 (mm:ss)) ####
+
+robe@dell:/datadisk/project_khadas_edge/Android9-leez/hardware/ril/reference-ril$ mma
+dirname: missing operand
+Try 'dirname --help' for more information.
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=9
+TARGET_PRODUCT=chestnut
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=cortex-a53
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv7-a-neon
+TARGET_2ND_CPU_VARIANT=cortex-a15
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-5.0.0-31-generic-x86_64-Ubuntu-18.04.3-LTS
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=PQ2A.20190516.V002
+OUT_DIR=out
+============================================
+ninja: no work to do.
+ninja: no work to do.
+No need to regenerate ninja file
+No need to regenerate ninja file
+ninja: error: unknown target 'MODULES-IN-', did you mean 'MODULES-IN-sdk'?
+21:45:40 ninja failed with: exit status 1
+
+#### failed to build some targets (12 seconds) ####
+
+robe@dell:/datadisk/project_khadas_edge/Android9-leez/hardware/ril/reference-ril$
+
